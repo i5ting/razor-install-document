@@ -58,8 +58,7 @@ http://dev.cobub.com
 
 ## 重启apache2
 
-sudo service apache2 restart
-
+	sudo service apache2 restart
 
 ## 排错
 
@@ -88,7 +87,9 @@ sudo service apache2 restart
 
 ### 测试地址
 
-在浏览器地址栏中打开http://HOST:PORT/phpmyadmin
+在浏览器地址栏中打开
+
+	http://HOST:PORT/phpmyadmin
 
 可用户登录即可
 
