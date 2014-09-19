@@ -16,13 +16,13 @@ http://dev.cobub.com
 ## 安装php环境
 卸载
 
-sudo apt-get --purge remove php5
-sudo apt-get --purge remove php5-common
-sudo apt-get --purge remove libapache2-mod-php5
-sudo apt-get --purge remove php5-cli
-sudo apt-get --purge remove apache2
-sudo apt-get --purge remove apache2-common
-sudo apt-get --purge remove apache2-utils
+	sudo apt-get --purge remove php5
+	sudo apt-get --purge remove php5-common
+	sudo apt-get --purge remove libapache2-mod-php5
+	sudo apt-get --purge remove php5-cli
+	sudo apt-get --purge remove apache2
+	sudo apt-get --purge remove apache2-common
+	sudo apt-get --purge remove apache2-utils
 
 
 
@@ -47,7 +47,7 @@ sudo apt-get --purge remove apache2-utils
 
 ## 修改配置文件
 
-sudo vi /etc/php5/apache2/php.ini
+	sudo vi /etc/php5/apache2/php.ini
 
 把error_reporting对应的值改成
 
